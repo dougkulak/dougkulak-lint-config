@@ -1,0 +1,41 @@
+{
+  "name": "prettier-config-dougkulak",
+  "version": "1.0.0",
+  "description": "Prettier rules dougkulak prefers",
+  "main": "src/main/js/index",
+  "scripts": {
+    "build": "yarn docs",
+    "test": "jest -w=1 --config=jest.config.json",
+    "docs": "typedoc --options ./typedoc.json ./src/main"
+  },
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "src/main"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougkulak/dougkulak-lint-config.git"
+  },
+  "keywords": [
+    "eslint-config-dougkulak"
+  ],
+  "bugs": {
+    "url": "https://github.com/dougkulak/dougkulak-lint-config/issues"
+  },
+  "homepage": "https://github.com/dougkulak/dougkulak-lint-config#readme",
+  "author": "Doug Kulak <dougkulak@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@swissquote/crafty-preset-jest": "^1.15.0",
+    "coveralls": "^3.1.1",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "stdstream-snapshot": "^1.2.5",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "dependencies": {}
+}

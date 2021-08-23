@@ -1,0 +1,9 @@
+{
+  "collectCoverage": true,
+  "projects": [
+    "<rootDir>/packages/eslint-config-dougkulak/jest.config.json",
+    "<rootDir>/packages/tslint-config-dougkulak/jest.config.json",
+    "<rootDir>/packages/prettier-config-dougkulak/jest.config.json"
+  ],
+  "testTimeout": 10000
+}

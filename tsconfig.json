@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "tslint-config-dougkulak": ["./tslint-config-dougkulak/src/main/ts"],
+      "tslint-config-dougkulak/*": ["./tslint-config-dougkulak/src/main/ts/*"],
+      "eslint-config-dougkulak": ["./eslint-config-dougkulak/src/main/ts"],
+      "eslint-config-dougkulak/*": ["./eslint-config-dougkulak/src/main/ts/*"],
+      "prettier-config-dougkulak": ["./prettier-config-dougkulak/src/main/js"],
+      "prettier-config-dougkulak/*": ["./prettier-config-dougkulak/src/main/js/*"]
+    }
+  }
+}
