@@ -1,7 +1,7 @@
 # dougkulak-lint-config
-[![Build Status](https://travis-ci.com/dougkulak/dougkulak-lint-config.svg?branch=master)](https://travis-ci.com/dougkulak/dougkulak-lint-config)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/8738098b0f0f4825da8b/test_coverage)](https://codeclimate.com/github/dougkulak/dougkulak-lint-config/test_coverage)
-[![Maintainability](https://api.codeclimate.com/v1/badges/8738098b0f0f4825da8b/maintainability)](https://codeclimate.com/github/dougkulak/dougkulak-lint-config/maintainability)
+[![Build Status](https://api.travis-ci.com/dougkulak/dougkulak-lint-config.svg?branch=master)](https://app.travis-ci.com/github/dougkulak/dougkulak-lint-config)
+[![David](https://img.shields.io/david/dev/dougkulak/blank-ts-monorepo?label=deps)](https://david-dm.org/dougkulak/blank-ts-monorepo?type=dev)
+[![Coverage Status](https://coveralls.io/repos/github/dougkulak/dougkulak-lint-config/badge.svg?branch=master)](https://coveralls.io/github/dougkulak/dougkulak-lint-config?branch=master)
 
 Linting & formatting configs dougkulak prefers
 
