@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-dougkulak",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "TSLint rules dougkulak prefers",
   "main": "src/main/js/tslint-config-dougkulak.js",
   "scripts": {
