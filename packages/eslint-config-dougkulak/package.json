@@ -1,0 +1,60 @@
+{
+  "name": "eslint-config-dougkulak",
+  "version": "0.0.0",
+  "description": "ESLint rules dougkulak prefers",
+  "main": "src/main/js/eslint-config-dougkulak.js",
+  "scripts": {
+    "build": "yarn docs",
+    "test": "yarn test:spec",
+    "test:gen": "yarn jest --updateSnapshot",
+    "test:spec": "jest -w=1 --config=jest.config.json",
+    "test:report": "yarn test && yarn coveralls:push",
+    "lint": "eslint --config src/main/js/eslint-config-dougkulak.js src/main/js/eslint-config-dougkulak.js",
+    "docs": "typedoc --options ./typedoc.json ./src/main"
+  },
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "src/main"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougkulak/dougkulak-lint-config.git"
+  },
+  "keywords": [
+    "eslint-config-dougkulak"
+  ],
+  "bugs": {
+    "url": "https://github.com/dougkulak/dougkulak-lint-config/issues"
+  },
+  "homepage": "https://github.com/dougkulak/dougkulak-lint-config#readme",
+  "author": "Doug Kulak <dougkulak@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-array-func": "^3.1.7",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-optimize-regex": "^1.2.1",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "eslint-plugin-unicorn": "^35.0.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@swissquote/crafty-preset-jest": "^1.15.0",
+    "@types/jest": "^27.0.1",
+    "coveralls": "^3.1.1",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "stdstream-snapshot": "^1.2.5",
+    "ts-jest": "^27.0.5"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {}
+}

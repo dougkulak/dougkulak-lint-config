@@ -1,0 +1,48 @@
+{
+  "name": "tslint-config-dougkulak",
+  "version": "0.0.0",
+  "description": "TSLint rules dougkulak prefers",
+  "main": "src/main/js/tslint-config-dougkulak.js",
+  "scripts": {
+    "build": "yarn docs",
+    "test": "yarn lint && yarn test:spec",
+    "test:gen": "yarn jest -u",
+    "test:spec": "jest -w=1 --config=jest.config.json",
+    "test:report": "yarn test && yarn coveralls:push",
+    "lint": "tslint --config src/main/js/tslint-config-dougkulak.js --project tsconfig.json",
+    "docs": "typedoc --options ./typedoc.json ./src/main"
+  },
+  "files": [
+    "README.md",
+    "CHANGELOG.md",
+    "src/main"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougkulak/dougkulak-lint-config.git"
+  },
+  "keywords": [
+    "tslint-config-dougkulak"
+  ],
+  "author": "Doug Kulak <dougkulak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dougkulak/dougkulak-lint-config/issues"
+  },
+  "homepage": "https://github.com/dougkulak/dougkulak-lint-config#readme",
+  "dependencies": {
+    "tslint-config-standard": "^9.0.0",
+    "tslint-react": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "coveralls": "^3.1.1",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.5",
+    "stdstream-snapshot": "^1.2.5"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {}
+}
